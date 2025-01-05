@@ -24,7 +24,6 @@ const App = () => {
   return (
     <Router>
       <div>
-       
         <nav>
           <ul>
             <li>
