@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import './../styles/App.css';
 
-// Home component
+
 const Home = () => {
   return (
     <div>
@@ -11,7 +11,7 @@ const Home = () => {
   );
 };
 
-// About component
+
 const About = () => {
   return (
     <div>
@@ -25,7 +25,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        {/* Navigation Links */}
+       
         <nav>
           <ul>
             <li>
@@ -37,7 +37,7 @@ const App = () => {
           </ul>
         </nav>
 
-        {/* Define Routes */}
+       
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
