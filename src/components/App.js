@@ -2,11 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import './../styles/App.css';
 
-
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to my Website!</h1>
+      <h1>Welcome to my website!</h1>
     </div>
   );
 };
@@ -16,7 +15,7 @@ const About = () => {
   return (
     <div>
       <h1>About</h1>
-      <p>This is sample React Router Program.</p>
+      <p>This is a sample React Router program.</p>
     </div>
   );
 };
